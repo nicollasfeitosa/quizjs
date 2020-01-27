@@ -90,6 +90,7 @@ function final(idClick, idEsconde, idExibe) {
 	});	
 }
 
+
 function resetar(idClick) {
 	document.getElementById(idClick).addEventListener("click", function(){
 		window.history.go(0)
@@ -135,6 +136,8 @@ marcaErrada('f5-img7')
 
 // Fase Final
 resetar('jogardnv')
+resetar('jogardnv2')
+
 
 
 
