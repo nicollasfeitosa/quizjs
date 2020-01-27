@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jogo JS</title>
+	<!-- Bootstrap & Styles-->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1>QuizJS</h1>
+		<p>Feito 100% em puro JS</p>
+	</header>
+
+	<section>
+		<div>
+			<h3 id="LifeViwer">Você tem <b id="lifeCount"></b> vidas!</h3>
+		</div>
+	</section>
+
+	<section id="fases">
+		<div id="fase1">
+			<h2>Fase 1: Qual logo do firefox é rosa?</h2>
+			<img id="f1-img1" class="img-thumbnail errada" src="img/firefox.png"">
+			<img id="f1-img2" class="img-thumbnail correta" src="img/fox.png">
+			<img id="f1-img3" class="img-thumbnail errada" src="img/firefox.png">
+			<h5>Clique na imagen correta para responder a pergunta!</h5>
+		</div>
+
+		<div id="fase2" class="notshow">
+			<h2>Fase 2: Qual logo do firefox é rosa?</h2>
+			<img id="f2-img1"class="img-thumbnail correta" src="img/fox.png">
+			<img id="f2-img2" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f2-img3" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f2-img4" class="img-thumbnail errada" src="img/firefox.png">
+			<h5>Clique na imagen correta para responder a pergunta!</h5>
+		</div>
+
+		<div id="fase3" class="notshow">
+			<h2>Fase 3: Qual logo do firefox é rosa?</h2>
+			<img id="f3-img1" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f3-img2" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f3-img3" class="img-thumbnail errada" src="img/firefox.png">	
+			<img id="f3-img4" class="img-thumbnail correta" src="img/fox.png">
+			<img id="f3-img5" class="img-thumbnail errada" src="img/firefox.png">
+			<h5>Clique na imagen correta para responder a pergunta!</h5>
+		</div>
+
+		<div id="fase4" class="notshow">
+			<h2>Fase 4: Qual logo do firefox é rosa?</h2>
+			<img id="f4-img1" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f4-img2" class="img-thumbnail correta" src="img/fox.png">
+			<img id="f4-img3" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f4-img4" class="img-thumbnail errada" src="img/firefox.png">	
+			<img id="f4-img5" class="img-thumbnail errada" src="img/firefox.png">	
+			<img id="f4-img6" class="img-thumbnail errada" src="img/firefox.png">
+			<h5>Clique na imagen correta para responder a pergunta!</h5>
+		</div>
+
+		<div id="fase5" class="notshow">
+			<h2>Fase 5: Qual logo do firefox é rosa?</h2>
+			<img id="f5-img1" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f5-img2" class="img-thumbnail errada" src="img/firefox.png">
+			<img id="f5-img3" class="img-thumbnail errada" src="img/firefox.png">	
+			<img id="f5-img4" class="img-thumbnail correta" src="img/fox.png">
+			<img id="f5-img5" class="img-thumbnail errada" src="img/firefox.png">	
+			<img id="f5-img6" class="img-thumbnail errada" src="img/firefox.png">	
+			<img id="f5-img7" class="img-thumbnail errada" src="img/firefox.png">
+			<h5>Clique na imagen correta para responder a pergunta!</h5>
+		</div>
+
+		<div id="final" class="notshow">
+			
+			<h2>Parabens você finalizou o game!</h2>
+			<h3>Você marcou a alternativa errada <span id="qntdErros"></span> vezes!</h3>
+			<h3>Você zerou o jogo restando <b id="LifeCount2"></b> vidas!</h3>
+			<h3>Seu score final foi <span id="score"></span> pontos!</h3>
+			<a id="jogardnv" class="btn btn-primary" href="#" role="button">Jogar Novamente</a>
+			<h5>Obrigado por jogar =)</h5>
+		</div>
+	</section>
+
+	<section> 
+		<div id="gameover" class="notshow">
+			<h3>Game Over! Você perdeu todas as suas vidas!</h3>
+			<a id="jogardnv" class="btn btn-primary" href="#" role="button">Jogar Novamente</a>
+		</div>
+	</section>
+
+	<footer>
+		<p>Nicollas Feitosa &copy 2020</p>
+	</footer>
+
+	<script src="./index.js"></script>
+</body>
+</html>

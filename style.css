@@ -1,0 +1,61 @@
+/* CSS */
+
+body {
+	text-align: center;	
+}
+
+header {
+	padding: 5em;
+	background: #ccc;
+	margin-bottom: 3em;
+}
+
+footer {
+	margin-top: 6.4em;
+	padding: 3em;
+	border-top: 1px solid gray;
+	background-color: #ccc;
+}
+
+footer p {
+	margin: 0;
+}
+
+/* Imagens*/
+
+.correta, .errada {
+	width: 10%;
+	margin: 1em .5em;
+	cursor: pointer;
+}
+
+.errada:hover, .correta:hover {
+	opacity: 80%;
+	border: 1px solid green;
+	background: #7FFFD4;
+}
+
+.marcaerrada {
+	border: 3px solid #8B0000;
+	background: #F08080;
+	opacity: 50%;
+}
+
+.marcaerrada:hover {
+	border: 3px solid #8B0000;
+	background: #F08080;
+	opacity: 50%;
+}
+
+
+/* Geral */
+
+#jogardnv {
+	margin: 2em 0;
+}
+
+/* Funcionamento de ocultação de fases */
+
+.notshow {
+	display: none;
+}
