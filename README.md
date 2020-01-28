@@ -1,7 +1,7 @@
 # QuizJS
 
 Um **QUIZ** com perguntas e respostas em imagens totalmente feito em **JavaScript**!
-[https://quizjs.netlify.com/](Clique aqui para ver o preview)
+Preview: https://quizjs.netlify.com/
 
 ## Ideia
 A ideia do QuizJS é disponibilizar um template de perguntas e respostas totalmente desenvolvido em JavaScript Puro, sendo assim compatível com muitos navegadores!
